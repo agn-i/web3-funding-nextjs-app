@@ -1,4 +1,4 @@
-import { contractAddresses, abi } from "../constants"
+import { contractAddresses, abi } from "../../constants"
 import { useMoralis, useWeb3Contract } from "react-moralis"
 import { useNotification } from "@web3uikit/core"
 import { ethers } from "ethers"

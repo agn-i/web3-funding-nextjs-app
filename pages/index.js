@@ -1,7 +1,7 @@
 import Head from "next/head"
-import Header from "../components/Header.jsx"
+import Header from "./components/Header"
 import { useMoralis } from "react-moralis"
-import Contribute from "../components/Contribute.jsx"
+import Contribute from "./components/Contribute"
 
 const supportedChains = ["31337", "4"]
 
